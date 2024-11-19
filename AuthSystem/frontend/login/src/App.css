@@ -1,0 +1,75 @@
+body {
+  background-color: #f0f2f5; /* Light background color */
+  font-family: 'Arial', sans-serif;
+}
+
+.register-container {
+  max-width: 400px;
+  margin: 100px auto; /* Centered with some top margin */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.register-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+
+input {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #007bff; /* Blue focus border */
+  outline: none;
+}
+
+.submit-button {
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff; /* Blue background */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.login-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+
